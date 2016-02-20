@@ -1,0 +1,23 @@
+body{
+	background-color: #e5d7c1;
+	font-family: American Typewriter;
+	text-align: justify;
+	color: #051451;
+	background: url(../images/fs.png)
+}
+
+h1 {font-family: 'Italianno', cursive;
+margin-left: 5%;
+
+}
+
+.button{
+	margin-top: 40%;
+	margin-left: 1.5%;
+	color: #e5d7c1;
+}
+
+
+
+
+	

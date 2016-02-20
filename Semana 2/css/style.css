@@ -1,0 +1,60 @@
+body{
+	background-color: #F85066;
+	font-family: 'Montserrat', sans-serif;
+	background: url(../images/bg.png);
+}
+
+
+ul{
+	text-align: center;
+	text-decoration: none;
+	font-size: 30px;
+	padding-right: 60px;
+}
+
+ul li{
+	display: inline-block;
+	padding: 15px;
+	border-radius: 5px;
+	margin-left: 20px;
+	box-shadow: 2px 2px 1px #6B3664;
+	padding-right: 30px;
+}
+
+ul li >a{
+	text-decoration: none;
+	color: white;
+}
+
+.title{
+	text-align: center;
+	font-size: 50px;
+	color: #f7f4e4;
+}
+
+.fb{
+	background-color: #1452ed;
+}
+
+.yt{
+	background-color: #ea2415;
+}
+
+.tw{
+	background-color: #15dbea;
+}
+
+.fb:hover, .fb:hover a{
+	color: #3b5998;
+	background: #E0C3A5;
+}
+
+.yt:hover, .yt:hover a{
+	color: #bb0000;
+	background: #E0C3A5;
+}
+
+.tw:hover, .tw:hover a{
+	color: #125688;
+	background: #E0C3A5;
+}

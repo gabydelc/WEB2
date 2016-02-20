@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejemplo imagen y sonido</title>
+
+<style>
+
+h1 {
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.effects li a {
+	display: block;
+	width: 31px;
+	height: 29px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	background: url(download/effects.png);
+	text-indent: -9999px;
+}
+	
+</style>
+
+</head>
+<body>
+
+	<h1>Imagen sobre audio</h1>
+
+				<ul class="effects">
+				<li><a href="#current" onclick="clicksound1.playclip()">Efecto 1</a></li>
+				<li><a href="#current" onclick="clicksound2.playclip()">Efecto 2</a></li>
+				<li><a href="#current" onclick="clicksound3.playclip()">Efecto 3</a></li>
+				<li><a href="#current" onclick="clicksound4.playclip()">Efecto 4</a></li>
+				</ul> <!-- /.effects -->
+
+
+	<script>
+		var html5_audiotypes = { //define la lista de las extensiones de los sonidos. 
+			"mp3": "audio/mpeg",
+			"mp4": "audio/mp4",
+			"ogg": "audio/ogg",
+			"wav": "audio/wav"
+		}
+
+		function createsound(sound){
+			var html5audio = document.createElement('audio')
+
+			if (html5audio.canPlayType){ //chequear soporte HTML5
+				for (var i=0; i<arguments.length; i++){
+					var source = document.createElement('source')
+					source.setAttribute('src', arguments[i])
+					if (arguments[i].match(/\.(\w+)$/i))
+						source.setAttribute('type', html5_audiotypes[RegExp.$1])
+					html5audio.appendChild(source)
+				}
+				html5audio.load()
+				html5audio.playclip = function(){
+					html5audio.pause()
+					html5audio.currentTime=0
+					html5audio.play()
+				}
+				return html5audio
+			}
+			else {
+				return { 
+					playclip:function(){
+						throw new Error("Tu navegador no soporta HTML5 Audio!")
+					}
+				}
+			}
+		}
+
+		//Iniciar los sonidos:
+
+		var clicksound1=createsound("download/Applause.ogg", "download/Applause.mp3")
+		var clicksound2=createsound("download/Bike.ogg", "download/Bike.mp3")
+		var clicksound3=createsound("download/Fireworks.ogg", "download/Fireworks.mp3")
+		var clicksound4=createsound("download/Glass.ogg", "download/Glass.wav")
+
+		</script>	
+</body>
+</html>
