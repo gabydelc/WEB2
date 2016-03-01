@@ -1,0 +1,1552 @@
+body {
+  background: url(../img/bg.jpg);
+}
+
+.columnaizq {
+  position: left;
+  top: 10px;
+  width: 410px;
+  margin: 0 auto;
+  z-index: 1;
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+
+.titulo {
+  top: 35px;
+  width: 300px;
+  margin: 0 auto;
+  z-index: 1;
+  float: center;
+  font-size: 6em;
+  font-family: 'Gochi Hand', cursive;
+  color: #2d2a2b;
+  margin-top: 15px;
+  position: absolute;
+  margin-left: 500px;
+}
+
+
+.columnader {
+  position: right;
+  top: 10px;
+  width: 410px;
+  margin-right: 0;
+  z-index: 1;
+  float: right;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+  
+
+
+
+/* POEMA1 */
+
+.poema1 {  
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 200px;
+  max-width: 408px;
+  max-height: 400px;
+  width: 100%;
+  color: #000000;
+  text-align: right;
+  font-size: 10px;
+  background-color: #e1dbc7;}
+
+.poema1 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.poema1 img {
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.poema1 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  opacity: 1;
+  padding: 30px 0 30px 10px;
+  background-color: #ffffff;
+  width: 40%;
+  -webkit-transform: translateX(150%);
+  transform: translateX(150%);
+}
+
+.poema1 figcaption:before {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 100%;
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 120px 120px 120px 0;
+  border-color: transparent #ffffff transparent transparent;
+}
+
+
+.poema1 h3, h4, h5, h6,
+.poema1 p {
+  line-height: 1.5em;
+  -webkit-transform: translateX(-30px);
+  transform: translateX(-30px);
+  margin: 0;
+}
+
+.poema1 h3 {
+  margin: 0 0 5px;
+  line-height: 1.1em;
+  font-size: 3.4em;
+   opacity: 100;
+  font-family: 'Great Vibes', cursive;
+  color: #220b0d;
+   margin-left: 10px;
+}
+
+.poema1 h4 {
+  margin: 0 0 5px;
+  line-height: 0.4em;
+  font-size: 4.5em;
+  opacity: 100;
+  font-family: 'Great Vibes', cursive;
+  color: #220b0d;
+  margin-left: 10px;
+}
+
+.poema1 h5 {
+  margin: 0 0 5px;
+  line-height: 1.1em;
+  font-size: 4em;
+  opacity: 100;
+ font-family: 'Roboto Slab', serif;
+ color: #b11f23;
+  margin-left: 10px;
+}
+
+.poema1 h6 {
+  margin: 0 0 5px;
+  line-height: 0.5em;
+  font-size: 4.9em;
+  opacity: 100;
+  font-family: 'Great Vibes', cursive;
+  color: #220b0d;
+  margin-left: 10px;
+}
+
+.poema1 p {
+  font-size: 0.8em;
+  line-height: 6.5em;
+  font-family: 'Lora', serif;
+}
+
+.poema1 i {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px 30px;
+  font-size: 10px;
+  color: #ffffff;
+  opacity: 0;
+}
+
+.poema1 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.poema1:hover img,
+.poema1.hover img {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  -webkit-opacity: 0.5;
+  opacity: 0.5;
+}
+
+.poema1:hover figcaption,
+.poema1.hover figcaption,
+.poema1:hover i,
+.poema1.hover i {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  opacity: 1;
+}
+
+
+/* POEMA2 */
+
+.poema2 {  
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 200px;
+  max-width: 408px;
+  max-height: 400px;
+  width: 100%;
+  color: #000000;
+  text-align: right;
+  font-size: 10px;
+  background-color: #e1dbc7;}
+
+.poema2 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.poema2 img {
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.poema2 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  opacity: 1;
+  padding: 30px 0 30px 10px;
+  background-color: #ffffff;
+  width: 40%;
+  -webkit-transform: translateX(150%);
+  transform: translateX(150%);
+}
+
+.poema2 figcaption:before {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 100%;
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 120px 120px 120px 0;
+  border-color: transparent #ffffff transparent transparent;
+}
+
+
+.poema2 h3, h4,
+.poema2 p {
+  line-height: 1.5em;
+  -webkit-transform: translateX(-30px);
+  transform: translateX(-30px);
+  margin: 0;
+}
+
+.poema2 h3 {
+  margin: 0 0 5px;
+  line-height: 1.1em;
+  font-size: 3.5em;
+  opacity: 100;
+  font-family: 'Archivo Black', sans-serif;
+  color: #ead8de;
+  margin-left: -50px;
+  margin-top: 45px;
+}
+
+.poema2 h4 {
+  margin: 0 0 5px;
+  line-height: 0.4em;
+  font-size: 2.5em;
+  opacity: 100;
+  font-family: 'IM Fell English', serif;
+  color: #181345;
+  margin-left: -50px;
+}
+
+.poema2 p {
+  font-size: 0.8em;
+  line-height: 6.5em;
+  font-family: 'Lora', serif;
+}
+
+.poema2 i {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px 30px;
+  font-size: 10px;
+  color: #ffffff;
+  opacity: 0;
+}
+
+.poema2 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.poema2:hover img,
+.poema2.hover img {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  -webkit-opacity: 0.5;
+  opacity: 0.5;
+}
+
+.poema2:hover figcaption,
+.poema2.hover figcaption,
+.poema2:hover i,
+.poema2.hover i {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* POEMA3 */
+
+.poema3 {  
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 200px;
+  max-width: 408px;
+  max-height: 400px;
+  width: 100%;
+  color: #000000;
+  text-align: right;
+  font-size: 10px;
+  background-color: #e1dbc7;}
+
+.poema3 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.poema3 img {
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.poema3 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  opacity: 1;
+  padding: 30px 0 30px 10px;
+  background-color: #ffffff;
+  width: 40%;
+  -webkit-transform: translateX(150%);
+  transform: translateX(150%);
+}
+
+.poema3 figcaption:before {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 100%;
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 120px 120px 120px 0;
+  border-color: transparent #ffffff transparent transparent;
+}
+
+
+.poema3 h3, h4, h5, h6,
+.poema3 p {
+  line-height: 1.5em;
+  -webkit-transform: translateX(-30px);
+  transform: translateX(-30px);
+  margin: 0;
+}
+
+.poema3 h3 {
+  margin: 0 0 5px;
+  line-height: 1.1em;
+  font-size: 1.9em;
+  opacity: 100;
+  font-family: 'Fira Mono' ;
+  color: #04685a;
+  margin-left: -50px;
+  margin-top: 43px;
+}
+
+.poema3 h4 {
+  margin: 0 0 5px;
+  line-height: 0.4em;
+  font-size: 2.03em;
+  opacity: 100;
+  font-family: 'Fira Mono' ;
+  color: #04685a;
+  margin-left: -50px;
+}
+
+.poema3 h5 {
+  margin: 0 0 5px;
+  line-height: 1.5em;
+  font-size: 1.97em;
+  opacity: 100;
+ font-family: 'Great Vibes', cursive;
+ color: #ef4747;
+  margin-left: -50px;
+}
+
+.poema3 h6 {
+  margin: 0 0 5px;
+  line-height: 0.1em;
+  font-size: 1.6em;
+  opacity: 100;
+  font-family: 'Great Vibes', cursive;
+  color: #e07f7f;
+  margin-left: -50px;
+}
+
+.poema3 p {
+  font-size: 0.8em;
+  line-height: 6.5em;
+  font-family: 'Lora', serif;
+}
+
+.poema3 i {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px 30px;
+  font-size: 10px;
+  color: #ffffff;
+  opacity: 0;
+}
+
+.poema3 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.poema3:hover img,
+.poema3.hover img {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  -webkit-opacity: 0.5;
+  opacity: 0.5;
+}
+
+.poema3:hover figcaption,
+.poema3.hover figcaption,
+.poema3:hover i,
+.poema3.hover i {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  opacity: 1;
+}
+
+
+/* POEMA4 */
+
+.poema4 {  
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 200px;
+  max-width: 408px;
+  max-height: 400px;
+  width: 100%;
+  color: #000000;
+  text-align: right;
+  font-size: 10px;
+  background-color: #e1dbc7;}
+
+.poema4 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.poema4 img {
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.poema4 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  opacity: 1;
+  padding: 30px 0 30px 10px;
+  background-color: #ffffff;
+  width: 40%;
+  -webkit-transform: translateX(150%);
+  transform: translateX(150%);
+}
+
+.poema4 figcaption:before {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 100%;
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 120px 120px 120px 0;
+  border-color: transparent #ffffff transparent transparent;
+}
+
+
+.poema4 h3, h4, h5, h6, h1,
+.poema4 p {
+  line-height: 1.5em;
+  -webkit-transform: translateX(-30px);
+  transform: translateX(-30px);
+  margin: 0;
+}
+
+.poema4 h3 {
+  margin: 0 0 5px;
+  line-height: 0.7em;
+  font-size: 1.7em;
+  opacity: 100;
+  font-family: 'Montserrat Alternates';
+  color: #1f1a55;
+ margin-left: -74px;
+  margin-top: 48px;
+  width: 228px;
+}
+
+.poema4 h4 {
+  margin: 0 0 5px;
+  line-height: -1em;
+  font-size: 0.85em;
+  opacity: 100;
+  font-family: 'Montserrat', sans-serif;
+  color: #e5d1b1;
+  margin-left: -50px;
+}
+
+.poema4 h5 {
+  margin: 0 0 5px;
+  line-height: 0.8em;
+  font-size: 1.2em;
+  opacity: 100;
+ font-family: 'Montserrat', sans-serif;
+ color: #8dcdcd;
+ margin-left: -146px;
+ width: 228px;
+}
+
+.poema4 h6 {
+  margin: 0 0 5px;
+  line-height: 0.8em;
+  font-size: 2.1em;
+  opacity: 100;
+  font-family: 'Montserrat Alternates';
+  color: #1f1a55;
+  margin-left: -50px;
+}
+
+.poema4 h1 {
+  margin: 0 0 5px;
+  line-height: 0.8em;
+  font-size: 1.2em;
+  opacity: 100;
+ font-family: 'Montserrat', sans-serif;
+ color: #8dcdcd;
+ margin-right: 0px;
+}
+
+.poema4 p {
+  font-size: 0.8em;
+  line-height: 6.5em;
+  font-family: 'Lora', serif;
+}
+
+.poema4 i {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px 30px;
+  font-size: 10px;
+  color: #ffffff;
+  opacity: 0;
+}
+
+.poema4 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.poema4:hover img,
+.poema4.hover img {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  -webkit-opacity: 0.5;
+  opacity: 0.5;
+}
+
+.poema4:hover figcaption,
+.poema4.hover figcaption,
+.poema4:hover i,
+.poema4.hover i {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  opacity: 1;
+}
+
+
+/* POEMA5 */
+
+.poema5 {  
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 200px;
+  max-width: 408px;
+  max-height: 400px;
+  width: 100%;
+  color: #000000;
+  text-align: right;
+  font-size: 10px;
+  background-color: #e1dbc7;}
+
+.poema5 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.poema5 img {
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.poema5 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  opacity: 1;
+  padding: 30px 0 30px 10px;
+  background-color: #ffffff;
+  width: 40%;
+  -webkit-transform: translateX(150%);
+  transform: translateX(150%);
+}
+
+.poema5 figcaption:before {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 100%;
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 120px 120px 120px 0;
+  border-color: transparent #ffffff transparent transparent;
+}
+
+.poema5 h3, h4, h5, h6, h1,
+.poema5 p {
+  line-height: 1.5em;
+  -webkit-transform: translateX(-30px);
+  transform: translateX(-30px);
+  margin: 0;
+}
+
+.poema5 h3 {
+  margin: 0 0 5px;
+  line-height: 1.1em;
+  font-size: 1.3em;
+  opacity: 100;
+  font-family: 'Quicksand', sans-serif;
+  color: #a3b2c4;
+  margin-left: -70px;
+  margin-top: 40px;
+  text-transform: uppercase;
+  width: 228px;
+}
+
+.poema5 h4 {
+  margin: 0 0 5px;
+  line-height: 0.4em;
+  font-size: 1.2em;
+  opacity: 100;
+  font-family: 'Quicksand', sans-serif;
+  color: #a3b2c4;
+  margin-left: -70px;
+  text-transform: uppercase;
+  width: 228px;
+}
+
+.poema5 h5 {
+  margin: 0 0 5px;
+  line-height: 1.1em;
+  font-size: 1.45em;
+  opacity: 100;
+ font-family: 'Quicksand', sans-serif;
+ color: #a3b2c4;
+  margin-left: -70px;
+  text-transform: uppercase;
+  width: 228px;
+}
+
+.poema5 h6 {
+  margin: 0 0 5px;
+  line-height: 0.5em;
+  font-size: 0.8em;
+  opacity: 100;
+  font-family: 'Quicksand', sans-serif;
+  color: #2154a5;
+  margin-left: -70px;
+  text-transform: uppercase;
+  width: 228px;
+}
+
+.poema5 h1 {
+  margin: 0 0 5px;
+  line-height: 1.1em;
+  font-size: 2.04em;
+  opacity: 100;
+ font-family: 'Josefin Slab', serif;
+ color: #d14727;
+  margin-left: -70px;
+  width: 228px;
+}
+
+.poema5 p {
+  font-size: 0.8em;
+  line-height: 6.5em;
+  font-family: 'Lora', serif;
+}
+
+.poema5 i {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px 30px;
+  font-size: 10px;
+  color: #ffffff;
+  opacity: 0;
+}
+
+.poema5 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.poema5:hover img,
+.poema5.hover img {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  -webkit-opacity: 0.5;
+  opacity: 0.5;
+}
+
+.poema5:hover figcaption,
+.poema5.hover figcaption,
+.poema5:hover i,
+.poema5.hover i {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  opacity: 1;
+}
+
+
+/* POEMA6 */
+
+.poema6 {  
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 200px;
+  max-width: 408px;
+  max-height: 400px;
+  width: 100%;
+  color: #000000;
+  text-align: right;
+  font-size: 10px;
+  background-color: #e1dbc7;}
+
+.poema6 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.poema6 img {
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.poema6 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  opacity: 1;
+  padding: 30px 0 30px 10px;
+  background-color: #ffffff;
+  width: 40%;
+  -webkit-transform: translateX(150%);
+  transform: translateX(150%);
+}
+
+.poema6 figcaption:before {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 100%;
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 120px 120px 120px 0;
+  border-color: transparent #ffffff transparent transparent;
+}
+
+.poema6 h3, h4, h5, h6, h1,
+.poema6 p {
+  line-height: 1.5em;
+  -webkit-transform: translateX(-30px);
+  transform: translateX(-30px);
+  margin: 0;
+}
+
+.poema6 h3 {
+  margin: 0 0 5px;
+  line-height: 1.5em;
+  font-size: 1.94em;
+  opacity: 100;
+  font-family: 'Cardo', serif;
+  color: #71637c;
+  margin-left: -68px;
+  margin-top: 20px;
+  width: 228px;
+}
+
+.poema6 h4 {
+  margin: 0 0 5px;
+  line-height: 0.4em;
+  font-size: 2.9em;
+  opacity: 100;
+  font-family: 'Cardo', serif;
+  color: #bd5538;
+  margin-left: -70px;
+  width: 228px;
+}
+
+.poema6 h5 {
+  margin: 0 0 5px;
+  line-height: 1.5em;
+  font-size: 1.4em;
+  opacity: 100;
+ font-family: 'Cardo', serif;
+ color: #71637c;
+  margin-left: -70px;
+  width: 228px;
+}
+
+.poema6 h6 {
+  margin: 0 0 5px;
+  line-height: 0.6em;
+  font-size: 1.25em;
+  opacity: 100;
+  font-family: 'League Script', cursive;
+  color: #71637c;
+  margin-left: -70px;
+  width: 228px;
+}
+
+.poema6 h1 {
+  margin: 0 0 5px;
+  line-height: 0.7em;
+  font-size: 2.35em;
+  opacity: 100;
+ font-family: 'Cardo', serif;
+ color: #bd5538;
+  margin-left: -70px;
+  width: 228px;
+}
+
+.poema6 p {
+  font-size: 0.8em;
+  line-height: 6.5em;
+  font-family: 'Lora', serif;
+}
+
+.poema6 i {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px 30px;
+  font-size: 10px;
+  color: #ffffff;
+  opacity: 0;
+}
+
+.poema6 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.poema6:hover img,
+.poema6.hover img {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  -webkit-opacity: 0.5;
+  opacity: 0.5;
+}
+
+.poema6:hover figcaption,
+.poema6.hover figcaption,
+.poema6:hover i,
+.poema6.hover i {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  opacity: 1;
+}
+
+
+/* POEMA7 */
+
+.poema7 {  
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 200px;
+  max-width: 408px;
+  max-height: 400px;
+  width: 100%;
+  color: #000000;
+  text-align: right;
+  font-size: 10px;
+  background-color: #e1dbc7;}
+
+.poema7 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.poema7 img {
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.poema7 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  opacity: 1;
+  padding: 30px 0 30px 10px;
+  background-color: #ffffff;
+  width: 40%;
+  -webkit-transform: translateX(150%);
+  transform: translateX(150%);
+}
+
+.poema7 figcaption:before {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 100%;
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 120px 120px 120px 0;
+  border-color: transparent #ffffff transparent transparent;
+}
+
+.poema7 h3, h4, h5, h6,
+.poema7 p {
+  line-height: 1.5em;
+  -webkit-transform: translateX(-30px);
+  transform: translateX(-30px);
+  margin: 0;
+}
+
+.poema7 h3 {
+  margin: 0 0 5px;
+  line-height: 1em;
+  font-size: 2em;
+  opacity: 100;
+  font-family: 'Playfair Display', serif;
+  color: #2b373d;
+  margin-left: -123px;
+  margin-top: 40px;
+  width: 228px;
+}
+
+.poema7 h4 {
+  margin: 0 0 5px;
+  line-height: 0.2em;
+  font-size: 1em;
+  opacity: 100;
+  font-family: 'Playfair Display', serif;
+  color: #2b373d;
+  margin-left: -123px;
+  width: 228px;
+}
+
+.poema7 h5 {
+  margin: 0 0 5px;
+  line-height: 1em;
+  font-size: 1.53em;
+  opacity: 100;
+ font-family: 'Playfair Display', serif;
+ color: #2b373d;
+  margin-left: -123px;
+  width: 228px;
+}
+
+.poema7 h6 {
+  margin: 0 0 5px;
+  line-height: 3.6em;
+  font-size: 1.25em;
+  opacity: 100;
+  font-family: 'Vollkorn', serif;
+  color: #90a09b;
+  margin-left: -70px;
+  width: 228px;
+}
+
+.poema7 p {
+  font-size: 0.8em;
+  line-height: 6.5em;
+  font-family: 'Lora', serif;
+}
+
+.poema7 i {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px 30px;
+  font-size: 10px;
+  color: #ffffff;
+  opacity: 0;
+}
+
+.poema7 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.poema7:hover img,
+.poema7.hover img {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  -webkit-opacity: 0.5;
+  opacity: 0.5;
+}
+
+.poema7:hover figcaption,
+.poema7.hover figcaption,
+.poema7:hover i,
+.poema7.hover i {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  opacity: 1;
+}
+
+
+/* POEMA8 */
+
+.poema8 {  
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 200px;
+  max-width: 408px;
+  max-height: 400px;
+  width: 100%;
+  color: #000000;
+  text-align: right;
+  font-size: 10px;
+  background-color: #e1dbc7;}
+
+.poema8 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.poema8 img {
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.poema8 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  opacity: 1;
+  padding: 30px 0 30px 10px;
+  background-color: #ffffff;
+  width: 40%;
+  -webkit-transform: translateX(150%);
+  transform: translateX(150%);
+}
+
+.poema8 figcaption:before {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 100%;
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 120px 120px 120px 0;
+  border-color: transparent #ffffff transparent transparent;
+}
+
+.poema8 h3, h4, h5, h6,
+.poema8 p {
+  line-height: 1.5em;
+  -webkit-transform: translateX(-30px);
+  transform: translateX(-30px);
+  margin: 0;
+}
+
+.poema8 h3 {
+  margin: 0 0 5px;
+  line-height: 1.5em;
+  font-size: 2em;
+  opacity: 100;
+  font-family: 'Oswald', sans-serif;
+  color: #ece3cc;
+  margin-left: -70px;
+  margin-top: 15px;
+  width: 228px;
+}
+
+.poema8 h4 {
+  margin: 0 0 5px;
+  line-height: 0.2em;
+  font-size: 2em;
+  opacity: 100;
+  font-family: 'Oswald', sans-serif;
+  color: #ece3cc;
+  margin-left: -70px;
+  width: 228px;
+}
+
+.poema8 h5 {
+  margin: 0 0 5px;
+  line-height: 1.4em;
+  font-size: 2.9em;
+  opacity: 100;
+ font-family: 'Oswald', sans-serif;
+ color: #ece3cc;
+  margin-left: -70px;
+  width: 228px;
+}
+
+.poema8 h6 {
+  margin: 0 0 5px;
+  line-height: 0.3em;
+  font-size: 7em;
+  opacity: 100;
+ font-family: 'Oswald', sans-serif;
+ color: #e31e25;
+  margin-left: -70px;
+  width: 228px;
+}
+
+.poema8 p {
+  font-size: 0.8em;
+  line-height: 6.5em;
+  font-family: 'Lora', serif;
+}
+
+.poema8 i {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px 30px;
+  font-size: 10px;
+  color: #ffffff;
+  opacity: 0;
+}
+
+.poema8 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.poema8:hover img,
+.poema8.hover img {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  -webkit-opacity: 0.5;
+  opacity: 0.5;
+}
+
+.poema8:hover figcaption,
+.poema8.hover figcaption,
+.poema8:hover i,
+.poema8.hover i {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  opacity: 1;
+}
+
+
+/* POEMA9 */
+
+.poema9 {  
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 200px;
+  max-width: 408px;
+  max-height: 400px;
+  width: 100%;
+  color: #000000;
+  text-align: right;
+  font-size: 10px;
+  background-color: #e1dbc7;}
+
+.poema9 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.poema9 img {
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.poema9 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  opacity: 1;
+  padding: 30px 0 30px 10px;
+  background-color: #ffffff;
+  width: 40%;
+  -webkit-transform: translateX(150%);
+  transform: translateX(150%);
+}
+
+.poema9 figcaption:before {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 100%;
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 120px 120px 120px 0;
+  border-color: transparent #ffffff transparent transparent;
+}
+
+.poema9 h3, h4, h5, h6,
+.poema9 p {
+  line-height: 1.5em;
+  -webkit-transform: translateX(-30px);
+  transform: translateX(-30px);
+  margin: 0;
+}
+
+.poema9 h3 {
+  margin: 0 0 5px;
+  line-height: 2.5em;
+  font-size: 1em;
+  opacity: 100;
+  font-family: 'Cutive Mono' ;
+  color: #aa7291;
+  margin-left: -70px;
+  margin-top: 45px;
+  width: 228px;
+}
+
+.poema9 h4 {
+  margin: 0 0 5px;
+  line-height: 0.2em;
+  font-size: 2.5em;
+  opacity: 100;
+  font-family: 'Fjalla One', sans-serif;
+  color: #101029;
+  margin-left: -70px;
+  width: 157px;
+}
+
+.poema9 h5 {
+  margin: 0 0 5px;
+  line-height: 1.4em;
+  font-size: 0.7em;
+  opacity: 100;
+ font-family: 'Cutive Mono' ;
+ color: #6e9ead;
+  margin-left: -70px;
+  width: 228px;
+  position: relative;
+  margin-top: -12px;
+}
+
+.poema9 h6 {
+  margin: 0 0 5px;
+  line-height: 0.3em;
+  font-size: 0.98em;
+  opacity: 100;
+ font-family: 'Cutive Mono' ;
+ color: #aa7291;
+  margin-left: -69px;
+  width: 228px;
+  margin-top: 16px;
+}
+
+.poema9 p {
+  font-size: 0.8em;
+  line-height: 6.5em;
+  font-family: 'Lora', serif;
+}
+
+.poema9 i {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px 30px;
+  font-size: 10px;
+  color: #ffffff;
+  opacity: 0;
+}
+
+.poema9 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.poema9:hover img,
+.poema9.hover img {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  -webkit-opacity: 0.5;
+  opacity: 0.5;
+}
+
+.poema9:hover figcaption,
+.poema9.hover figcaption,
+.poema9:hover i,
+.poema9.hover i {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  opacity: 1;
+}
+
+
+/* POEMA10 */
+
+.poema10 {  
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 200px;
+  max-width: 408px;
+  max-height: 400px;
+  width: 100%;
+  color: #000000;
+  text-align: right;
+  font-size: 10px;
+  background-color: #e1dbc7;}
+
+.poema10 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.poema10 img {
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.poema10 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  opacity: 1;
+  padding: 30px 0 30px 10px;
+  background-color: #ffffff;
+  width: 40%;
+  -webkit-transform: translateX(150%);
+  transform: translateX(150%);
+}
+
+.poema10 figcaption:before {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 100%;
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 120px 120px 120px 0;
+  border-color: transparent #ffffff transparent transparent;
+}
+
+.poema10 h3, h4, h5, h6,
+.poema10 p {
+  line-height: 1.5em;
+  -webkit-transform: translateX(-30px);
+  transform: translateX(-30px);
+  margin: 0;
+}
+
+.poema10 h3 {
+  margin: 0 0 5px;
+  line-height: 1.9em;
+  font-size: 1.2em;
+  opacity: 100;
+  font-family: 'Josefin Slab', serif;
+  color: #95897d;
+  margin-left: -70px;
+  margin-top: 40px;
+  width: 228px;
+}
+
+.poema10 h4 {
+  margin: 0 0 5px;
+  line-height: 0.9em;
+  font-size: 1.5em;
+  opacity: 100;
+  font-family: 'Archivo Black', sans-serif;
+  color: #682c21;
+  margin-left: -115px;
+  width: 190px;
+}
+
+.poema10 h5 {
+  margin: 0 0 5px;
+  line-height: 1em;
+  font-size: 2.5em;
+  opacity: 100;
+ font-family: 'Great Vibes', cursive;
+ color: #699f9f;
+  margin-left: -70px;
+  width: 228px;
+  position: absolute;
+  margin-top: -24px;
+}
+
+
+.poema10 p {
+  font-size: 0.8em;
+  line-height: 15.5em;
+  font-family: 'Lora', serif;
+}
+
+.poema10 i {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px 30px;
+  font-size: 10px;
+  color: #ffffff;
+  opacity: 0;
+}
+
+.poema10 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.poema10:hover img,
+.poema10.hover img {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  -webkit-opacity: 0.5;
+  opacity: 0.5;
+}
+
+.poema10:hover figcaption,
+.poema10.hover figcaption,
+.poema10:hover i,
+.poema10.hover i {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  opacity: 1;
+}
