@@ -1,28 +1,38 @@
-html {
-	-webkit-font-smoothing: antialiased;
-	text-rendering: optimizeLegibility;
-	-webkit-text-size-adjust: none;
-	-ms-text-size-adjust: none;
-	overflow-y: scroll;
+body {
+    background-color: white;
 }
 
-#container:hover #name {
-  transform: translate(0, 0) !important;
+header {
+    color: black;
+    font-family:'Helvetica';
+    float: center;
+    margin-top:80px;
+    font-size:20pt;
+    letter-spacing: 10px;
+    margin-left:350px;
 }
 
-#container #name {
-  transition: transform 0.25s ease-in;
-  transform: translate(0, 100%) !important;
+div.title {
+    font-family:'Helvetica';
+    display: none;
+    position: relative;
+    float: center;
+    text-align: justify;
+    top: -500px;
+    color: white;
 }
 
-#container {
-  overflow: hidden;
-  position: relative;
+div.title:hover, a.wrapper:hover + div {
+    display: block;
+    background-color: white;
+    color: black;
+    margin-left: 350px;
+    width: 555px;
 }
 
-#name {
-  width: 100%;
-  height: 100%;
-  background-color: rgba(50,0,0,0.5);
+.image {
+  margin-left: 140px;
+  width: 1000px;
+  height: 700px;
 }
 
