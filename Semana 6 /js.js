@@ -1,11 +1,4 @@
 
-var playBtn = document.getElementById('play');
-var stopBtn = document.getElementById('stop');
-
-var playSound = function() {
-  audio.play();
-};
-
 //segundo sonido - play
 
 playBtn.addEventListener('click', playSound, false);
@@ -22,16 +15,6 @@ stopBtn.addEventListener('click', function(){song.pause()}, false);
           songElement.addEventListener("load", function () {
               songElement.play();
           }, true);
-
-
-          $(document).keypress(function (e) {
-              if (e.which == 13) { //press enter the audio will play
-                  songElement.play();
-
-              } else if (e.which == 32) { //press spacebar the audio will                             pause play
-                  songElement.pause();
-              }
-          });
 
 // the code below wil allow you to click the play and stop button with the mouse
           $('.play-button').click(function () { 

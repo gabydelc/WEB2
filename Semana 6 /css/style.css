@@ -1,5 +1,5 @@
 body {
-	background: url(../img/bg.jpg);
+	background-color: #ccc;
 }
 
 .tittle h1 {
@@ -35,10 +35,12 @@ p {
 	font-size: 2.5em;
 	}
 
-	.play {
+	button .play {
 		color: orange;
 	}
 
-	.pause {
+	button .stop {
 		color: purple;
 	}
+
+
