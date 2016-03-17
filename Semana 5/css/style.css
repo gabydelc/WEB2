@@ -1,7 +1,7 @@
 
 body {
   font-family: "Helvetica";
-  font-size: 3em;
+  font-size: 2em;
   color: #5e492e;
   background: url(../img/cat.png);
   background-color: #e2c39a;
@@ -10,5 +10,6 @@ body {
 
 h1 {
 	color: #5e492e;
+	font-size: 4em;
 }
 
