@@ -1,5 +1,6 @@
 body {
 	background-color: #ccc;
+	background: url(../img/bg.jpg);
 }
 
 .tittle h1 {
@@ -31,9 +32,6 @@ p {
 	z-index: 1;
 	margin-top: 570px;
 	margin-left: 600px;
-	font-family: 'Indie Flower', cursive;
-	color: black;
-	font-size: 2em;
 	}
 
 	button {
