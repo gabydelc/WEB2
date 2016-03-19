@@ -1,0 +1,65 @@
+/* 
+
+header {
+	background: url(../img/header.png)
+}
+ */
+
+body {
+	background-color: #f7ebdf;
+	font-family: "Helvetica";
+	text-transform: uppercase;
+}
+
+p {
+	font-family: "Helvetica";
+}
+
+button {
+	 -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+
+    cursor: pointer;
+}
+
+.button {
+    color: white;
+    background: #1db0bc;
+    height: 58px;
+    border: 2px solid #1db0bc;
+    font: 500 22px;
+    font-family: "Helvetica";
+    padding: 0 21px;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+a > img {
+    vertical-align: bottom
+}
+
+.wrap {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1140px;
+}
+
+a {
+    color: #10bbf1;
+    cursor: pointer;
+    background: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #40c9f4
+}
+
+a:active {
+    color: #0b97c3
+}
