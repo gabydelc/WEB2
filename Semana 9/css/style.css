@@ -1,7 +1,7 @@
 h1 {
   font-family: 'Fjalla One', sans-serif;
   position: relative;
-  margin-left: 35%;
+  margin-left: 38%;
   margin-top: 3%;
 }
 
@@ -23,6 +23,7 @@ ul {
   display: block;
   max-width: 780px;
   text-align: center;
+  margin-left: 265px;
 }
 
 #overlay {
@@ -38,7 +39,7 @@ ul {
 
 #overlay img {
   margin: 10% auto 0;
-  width: 550px;
+  width: 600px;
   border-radius: 5px;
 }
 
