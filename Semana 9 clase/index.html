@@ -1,34 +1,121 @@
 <!DOCTYPE html>
-<html>
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/reset.css">
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario HTML</title>
+	<link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+
+     <style type="text/css">
+	     	#myform label.error {
+			  color: red;
+			  font-size: 11px;
+			  font-family: Helvetica, sans-serif;
+			  text-transform: lowercase;
+			  position: relative;
+			}
+
+     </style>
+
+</head>
 <body>
 
-<form action="action_page.php">
-First name:<br>
-<input type="text" name="firstname">
-<br>
-Last name:<br>
-<input type="text" name="lastname">
-<br>
-E-mail:<br>
-<input type="text" name="email">
-<br>
-Phone:<br>
-<input type="text" name="phone">
-<br>
-City:<br>
-<input type="text" name="city">
-<br>
-Country:<br>
-<input type="text" name="country">
-<br>
-Message:<br>
-<input type="text" name="message">
-<br><br>
-<input type="submit">
-</form>
+	<form id="myform">
 
+		<label>De parte de</label>
+		<input name="name" type="text" placeholder="Nombre completo">
+		
+		<br>
+
+		<label>C&eacute;dula o No. pasaporte</label>
+		<input name="id" id="id_number" type="text">
+
+		<br>
+
+		<label>E-mail</label><br>
+		<input name="email" type="text" placeholder="ejemplo@ejemplo.com">
+
+		<br>
+
+		<label>Tel&eacute;fono</label>
+		<input name="phone" type="text" id="phone_number">
+
+		<br>
+
+		<label>Le quiero enviar un regalo a</label>
+		<input name="name2" type="text" placeholder="Nombre completo">
+
+		<br>
+
+		<label>Direcci&oacute;n del destinatario</label>
+		<input name="address" type="text" placeholder="Direcci&oacute;n completa">
+
+		<br>
+
+		<label>Mensaje</label>
+		<textarea name="message" id="" cols="30" rows="10"></textarea>
+
+		<br>
+
+		<button form="myform" type="submit" class="send">Enviar</button>
+
+	</form>
+
+
+<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="js/jquery.maskedinput.js" type="text/javascript"></script>
+<script src="js/jquery.validate.min.js" type="text/javascript"></script>
+
+<script>
+$().ready(function() {
+  $("#myform").validate({
+    rules: {
+      name: "required",
+      name2: "required",
+      message: "required",
+      id: "required",
+      phone: "required",
+      code: {
+        required: true,
+        minlength: 16,
+        maxlength: 16,
+        number: true
+      },
+      activity: {
+      	required: true
+      },
+      email: {
+      required: true,
+      email: true
+      },
+    },
+    messages: {
+      name: "Por favor introduzca su nombre y apellido",
+      name2: "Por favor introduzca su nombre y apellido",
+      id: "Por favor introduzca su n&uacute;mero de c&eacute;dula o pasaporte",
+      phone: "Por favor introduzca su n&uacute;mero de tel&eacute;fono",
+      message: "Este campo es obligatorio",
+      code: {
+        required: "Este campo es obligatorio",
+        minlength: "Su c&oacute;digo NIF contiene 16 d&iacute;gitos",
+        maxlength: "Su c&oacute;digo NIF contiene 16 d&iacute;gitos",
+        number: "Su c&oacute;digo NIF contiene 16 d&iacute;gitos"
+      },
+      activity: {
+        required: "Por favor selecciona una actividad"
+      },
+      email: {
+        required: "Por favor introduzca su e-mail",
+        email: "Por favor introduzca un e-mail válido"
+      },
+    }
+  });
+});
+
+jQuery(function($){
+   $("#phone_number").mask("(999) 999-9999");
+});
+</script>
 
 </body>
 </html>
