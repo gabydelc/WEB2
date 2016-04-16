@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+	
+	<title>JAZZ FEST</title>
+	<link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+
+     <style type="text/css">
+	     	#myform label.error {
+			  color: red;
+			  font-size: 8px;
+			  font-family: Helvetica, sans-serif;
+			  text-transform: lowercase;
+			  position: relative;
+			}
+
+     </style>
+
+</head>
+
+<body>
+
+  <h1>BUY YOUR TICKETS HERE!</h1>
+
+<div id="form">
+	<form id="myform">
+
+		<label>User Name</label>
+		<input name="name" type="text" placeholder="Full Name">
+		
+		<br>
+    <br>
+
+		<label>Passport</label>
+		<input name="id" id="id_number" type="text" placeholder="000000000">
+
+		<br>
+    <br>
+
+		<label>Phone</label>
+		<input name="phone" type="text" id="phone_number" placeholder="000-000-0000">
+
+		<br>
+    <br>
+
+		<label>Tickets</label>
+		<input name="name2" type="text" placeholder="How many">
+
+		<br>
+    <br>
+
+		<label>E-mail</label>
+		<input name="email" type="text" placeholder="ex@example.com">
+
+		<br>
+    <br>
+
+	
+
+		<button form="myform" type="submit" class="send">Send Request</button>
+
+	</form>
+  </div>
+
+
+<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="js/jquery.maskedinput.js" type="text/javascript"></script>
+<script src="js/jquery.validate.min.js" type="text/javascript"></script>
+
+<script>
+$().ready(function() {
+  $("#myform").validate({
+    rules: {
+      name: "required",
+      name2: "required",
+      message: "required",
+      id: "required",
+      phone: "required",
+      code: {
+        required: true,
+        minlength: 16,
+        maxlength: 16,
+        number: true
+      },
+      activity: {
+      	required: true
+      },
+      email: {
+      required: true,
+      email: true
+      },
+    },
+    messages: {
+      name: "Por favor introduzca su nombre y apellido",
+      name2: "Por favor introduzca su nombre y apellido",
+      id: "Por favor introduzca su n&uacute;mero de c&eacute;dula o pasaporte",
+      phone: "Por favor introduzca su n&uacute;mero de tel&eacute;fono",
+      message: "Este campo es obligatorio",
+      code: {
+        required: "Este campo es obligatorio",
+        minlength: "Su c&oacute;digo NIF contiene 16 d&iacute;gitos",
+        maxlength: "Su c&oacute;digo NIF contiene 16 d&iacute;gitos",
+        number: "Su c&oacute;digo NIF contiene 16 d&iacute;gitos"
+      },
+      activity: {
+        required: "Por favor selecciona una actividad"
+      },
+      email: {
+        required: "Por favor introduzca su e-mail",
+        email: "Por favor introduzca un e-mail válido"
+      },
+    }
+  });
+});
+
+jQuery(function($){
+   $("#phone_number").mask("(999) 999-9999");
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+body {
+	background: url(../img/1.png);
+	background-color: #10151f;
+	display: block;
+	
+	font-size: 10px;
+	height: 680px;
+
+}
+
+h1 {
+	color: white;
+	font-family: "Gotham HTF";
+	letter-spacing: 2px;
+	margin-left: 450px;
+	position: relative;
+	line-height: 10;
+	font-size: 12px;
+}
+
+#myform label {
+	color: white;
+	font-family: "Gotham HTF";
+	letter-spacing: 2px;
+	margin-left: 450px;
+	position: relative;
+	margin-top: 50px;
+
+
+}
+
+#myform input {
+	font-size: 10px;
+}
+
+
+
+button {
+	margin-left: 500px;
+}
